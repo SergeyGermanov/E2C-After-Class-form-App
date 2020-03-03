@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AFTER CLASS FORM</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form
+        method="POST"
+        action="https://formspree.io/sergey.germanov@english2china.co.nz"
+      >
+        <div class="selections">
+          <div>
+            <label for="Teacher's Name">Teacher</label>
+            <select name="Teacher's Name" id="name" required>
+              <option value="none">--Choose your name--</option>
+              <!-- <option value="Caroline Dare">Caroline Dare</option> -->
+              <!-- <option value="Nula Webb">Nula Webb</option> -->
+              <option value="Felipe Oliveira">Felipe Oliveira</option>
+              <option value="Jane Eagar">Jane Eagar</option>
+              <option value="Anna Romanova">Anna Romanova</option>   
+            </select>
+          </div>
+
+          <div>
+            <label for="Class ID">Class</label>
+            <select name="Class ID" id="class" required>
+              <option value="none">--Choose your class--</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="student">
+          <img src="img/logo.png" />
+        </div>
+
+        <div id="buttons">
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </button>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
