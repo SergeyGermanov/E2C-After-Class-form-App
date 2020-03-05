@@ -1,5 +1,7 @@
 # After Class Form App
 
+https://english2china.herokuapp.com/
+
 This is an App that reduce the pressure on teachers when they need to send feedbacks on every student after class.
 
 - Once a teacher loads the web page he can choose his name.
@@ -12,6 +14,3 @@ This is an App that reduce the pressure on teachers when they need to send feedb
 - Then you see the box which protects from spam. You just need to tick the box which says “I’m not a robot”.
 - After that you will see the confirmation that your feedback was submitted. 
 - You can click “Return to original site” and start again for the  next class.
- 
-
-
